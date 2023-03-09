@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Form Kunjungan</h1>
+        <form action="#" target="_blank" method="post" autocomplete="on">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Cilaa"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="cila@gmail.com"><br>
+        <fieldset>
+        <legend>Kunjungan:</legend>
+        <label for="pilih">Berapa Orang:</label><br>
+        <input type="radio" id="sendiri" name="pilih" value="Sendiri">
+        <label for="malang">Sendiri</label><br>
+        <input type="radio" id="berdua" name="pilih" value="Berdua">
+        <label for="jogja">Berdua</label><br>
+        <input type="radio" id="lain" name="pilih" value="lain">
+        <label for="bali">Lain</label>
+        <br><label for="pilih">Destinasi:</label><br>
+        <input type="checkbox" id="bali" name="bali" value="Bali">
+        <label for="bali">Bali</label><br>
+        <input type="checkbox" id="malang" name="malang" value="Malang">
+        <label for="malang">Malang</label><br>
+        <br>
+        <label for="model">Berapa Hari:</label>
+        <select id="model" name="model">
+            <option value="7hari">7Hari</option>
+            <option value="2minggu">2Minggu</option>
+            <option value="1bulan">1Bulan</option>
+        </select>
+        </fieldset>
+        <br>
+        <label for="keterangan">Keterangan :</label> <br>
+        <textarea name="keterangan" rows="5" cols="50">
+        Ada saran lain.....
+        </textarea>
+        <br> <br><input type="submit" name="save" id="save" value="Simpan">
+        <input type="submit" name="cancel" id="cancel" value="Batal">
+        </form>
+    </body>
+</html>
